@@ -13,7 +13,7 @@ const state = reactive({
 });
 
 const instance = axios.create({
-    baseURL: "https://localhost:26913",
+    baseURL: "/api",
     timeout: 500000,
 });
 instance
